@@ -31,7 +31,7 @@ namespace Entidades
 
             if(auxOperador == "+")
             {
-                 
+                  
             }else if(auxOperador == "-")
             {
 

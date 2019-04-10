@@ -47,5 +47,54 @@ namespace Entidades
 
             return retorno;
         }
+
+        public string DecimalBinario(double numero)
+        {
+            String cadena = "";
+            if (numero > 0)
+            {
+                while (numero > 0)
+                {
+                    if (numero % 2 == 0)
+                    {
+                        cadena = cadena + "0";
+                    }
+                    else
+                    {
+                        cadena = cadena + "1";
+                    }
+                    numero = (int)(numero / 2);
+                }
+            }else
+            {
+                cadena = "Valor invalido";
+            }
+            return cadena;   
+        }
+
+        public string DecimalBinario(string numero)
+        {
+            String cadena = "";
+            if (numero > 0)
+            {
+                while (numero > 0)
+                {
+                    if (numero % 2 == 0)
+                    {
+                        cadena = cadena + "0";
+                    }
+                    else
+                    {
+                        cadena = cadena + "1";
+                    }
+                    numero = (int)(numero / 2);
+                }
+            }
+            else
+            {
+                cadena = "Valor invalido";
+            }
+            return cadena;
+        }
     }
 }
