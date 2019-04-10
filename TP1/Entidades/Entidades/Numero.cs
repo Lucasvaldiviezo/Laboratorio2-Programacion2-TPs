@@ -10,6 +10,11 @@ namespace Entidades
     {
         private double numero;
 
+        private string SetNumero
+        {
+            set { numero = ValidarNumero(value); }
+        }
+
         public Numero()
         {
             this.numero = 0;
@@ -22,7 +27,7 @@ namespace Entidades
 
         public Numero(string strNumero)
         {
-          
+            this.numero = Convert.ToDouble(strNumero);
         }
 
         private double ValidarNumero(string strNumero)
