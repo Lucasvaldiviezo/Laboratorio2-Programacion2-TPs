@@ -75,26 +75,36 @@ namespace Entidades
         public string DecimalBinario(string numero)
         {
             String cadena = "";
-            if (numero > 0)
-            {
-                while (numero > 0)
-                {
-                    if (numero % 2 == 0)
-                    {
-                        cadena = cadena + "0";
-                    }
-                    else
-                    {
-                        cadena = cadena + "1";
-                    }
-                    numero = (int)(numero / 2);
-                }
-            }
-            else
-            {
-                cadena = "Valor invalido";
-            }
+            
             return cadena;
+        }
+
+        public static double operator +(Numero n1, Numero n2)
+        {
+            double resultado;
+            resultado = n1.numero + n2.numero;
+            return resultado;
+        }
+
+        public static double operator -(Numero n1, Numero n2)
+        {
+            double resultado;
+            resultado = n1.numero - n2.numero;
+            return resultado;
+        }
+
+        public static double operator *(Numero n1, Numero n2)
+        {
+            double resultado;
+            resultado = n1.numero * n2.numero;
+            return resultado;
+        }
+
+        public static double operator /(Numero n1, Numero n2)
+        {
+            double resultado;
+            resultado = n1.numero / n2.numero;
+            return resultado;
         }
     }
 }

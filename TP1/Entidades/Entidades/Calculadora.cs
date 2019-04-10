@@ -31,16 +31,19 @@ namespace Entidades
 
             if(auxOperador == "+")
             {
-                  
+                resultado = num1 + num2;  
             }else if(auxOperador == "-")
             {
+                resultado = num1 - num2;
+            }
+            else if(auxOperador == "*")
+            {
+                resultado = num1 * num2;
 
-            }else if(auxOperador == "*")
+            }
+            else if(auxOperador == "/")
             {
-               
-            }else if(auxOperador == "/")
-            {
-                
+                resultado = num1 / num2;
             }
 
             return resultado;

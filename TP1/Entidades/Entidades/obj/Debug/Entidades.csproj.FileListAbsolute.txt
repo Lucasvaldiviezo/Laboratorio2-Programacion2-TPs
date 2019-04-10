@@ -1,0 +1,7 @@
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\Entidades\bin\Debug\Entidades.exe.config
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\Entidades\bin\Debug\Entidades.exe
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\Entidades\obj\Debug\Entidades.exe
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\Entidades\obj\Debug\Entidades.pdb

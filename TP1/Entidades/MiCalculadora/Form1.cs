@@ -16,5 +16,10 @@ namespace MiCalculadora
         {
             InitializeComponent();
         }
+
+        private void Calculadora_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

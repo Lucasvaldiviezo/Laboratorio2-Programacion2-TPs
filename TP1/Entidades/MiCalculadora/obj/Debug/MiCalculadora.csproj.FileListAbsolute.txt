@@ -1,0 +1,10 @@
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.Calculadora.resources
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\Usuario\Desktop\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion-TPs\TP1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.pdb
