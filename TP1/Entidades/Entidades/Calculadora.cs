@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MiCalculadora;
+
+
 
 namespace Entidades
 {
@@ -23,7 +26,7 @@ namespace Entidades
             return retorno;
         }
 
-        public double Operar(Numero num1, Numero num2, string operador)
+        public static double Operar(Numero num1, Numero num2, string operador)
         {
             double resultado=0;
             string auxOperador;

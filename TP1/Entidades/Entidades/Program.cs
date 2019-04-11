@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MiCalculadora;
 
 namespace Entidades
 {
@@ -10,7 +11,7 @@ namespace Entidades
     {
         static void Main(string[] args)
         {
-
+            
         }
     }
 }
