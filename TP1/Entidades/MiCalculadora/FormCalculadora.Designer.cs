@@ -35,6 +35,8 @@
             this.btnOperar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
+            this.btnConvertirABinario = new System.Windows.Forms.Button();
+            this.btnConvertirADecimal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNumero1
@@ -75,7 +77,7 @@
             this.lblResultado.Location = new System.Drawing.Point(353, 19);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(131, 37);
-            this.lblResultado.TabIndex = 3;
+            this.lblResultado.TabIndex = 10;
             this.lblResultado.Text = "Numero";
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -85,7 +87,7 @@
             this.btnOperar.Location = new System.Drawing.Point(12, 133);
             this.btnOperar.Name = "btnOperar";
             this.btnOperar.Size = new System.Drawing.Size(145, 44);
-            this.btnOperar.TabIndex = 4;
+            this.btnOperar.TabIndex = 3;
             this.btnOperar.Text = "Operar";
             this.btnOperar.UseVisualStyleBackColor = true;
             // 
@@ -95,7 +97,7 @@
             this.btnLimpiar.Location = new System.Drawing.Point(178, 133);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(145, 44);
-            this.btnLimpiar.TabIndex = 5;
+            this.btnLimpiar.TabIndex = 4;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             // 
@@ -105,15 +107,37 @@
             this.btnCerrar.Location = new System.Drawing.Point(339, 133);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(145, 44);
-            this.btnCerrar.TabIndex = 6;
+            this.btnCerrar.TabIndex = 5;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
+            // 
+            // btnConvertirABinario
+            // 
+            this.btnConvertirABinario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvertirABinario.Location = new System.Drawing.Point(12, 193);
+            this.btnConvertirABinario.Name = "btnConvertirABinario";
+            this.btnConvertirABinario.Size = new System.Drawing.Size(224, 44);
+            this.btnConvertirABinario.TabIndex = 6;
+            this.btnConvertirABinario.Text = "Convertir a Binario";
+            this.btnConvertirABinario.UseVisualStyleBackColor = true;
+            // 
+            // btnConvertirADecimal
+            // 
+            this.btnConvertirADecimal.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvertirADecimal.Location = new System.Drawing.Point(260, 193);
+            this.btnConvertirADecimal.Name = "btnConvertirADecimal";
+            this.btnConvertirADecimal.Size = new System.Drawing.Size(224, 44);
+            this.btnConvertirADecimal.TabIndex = 7;
+            this.btnConvertirADecimal.Text = "Convertir a Decimal";
+            this.btnConvertirADecimal.UseVisualStyleBackColor = true;
             // 
             // Calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(496, 249);
+            this.Controls.Add(this.btnConvertirADecimal);
+            this.Controls.Add(this.btnConvertirABinario);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnOperar);
@@ -144,6 +168,8 @@
         private System.Windows.Forms.Button btnOperar;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Button btnConvertirABinario;
+        private System.Windows.Forms.Button btnConvertirADecimal;
     }
 }
 
