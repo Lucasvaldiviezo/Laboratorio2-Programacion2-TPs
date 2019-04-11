@@ -51,5 +51,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MiCalculadora\MiCalculadora.csproj">
+      <Project>{de802d72-3fec-463f-88f2-48607cf6a460}</Project>
+      <Name>MiCalculadora</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
