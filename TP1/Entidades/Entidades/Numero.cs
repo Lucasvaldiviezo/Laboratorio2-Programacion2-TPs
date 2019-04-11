@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Numero
+    public class Numero
     {
         private double numero;
 

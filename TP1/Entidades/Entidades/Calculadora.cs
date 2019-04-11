@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MiCalculadora;
+
 
 
 
 namespace Entidades
 {
-    class Calculadora
+    public class Calculadora
     {
         private static string ValidarOperador(string operador)
         {

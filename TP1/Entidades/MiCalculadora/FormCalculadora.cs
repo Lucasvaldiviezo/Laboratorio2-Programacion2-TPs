@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entidades;
 
 
 
@@ -33,6 +34,7 @@ namespace MiCalculadora
         private void btnOperar_Click(object sender, EventArgs e)
         {
           MiCalculadora.Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text);
+          lblResultado.Text = Convert.ToString(MiCalculadora.Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text));
         }
 
         private void txtNumero2_TextChanged(object sender, EventArgs e)
@@ -53,8 +55,9 @@ namespace MiCalculadora
         private static double Operar(string numero1, string numero2, string operador)
         {
             double retorno=0;
-            
-           
+            Numero num1 = new Numero(numero1);
+            Numero num2 = new Numero(numero2);
+            retorno = Calculadora.Operar(num1, num2, operador);
             return retorno;
         }
 
