@@ -1,6 +1,6 @@
 ﻿namespace MiCalculadora
 {
-    partial class Calculadora
+    partial class MiCalculadora
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -54,11 +54,11 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(353, 19);
+            this.lblResultado.Location = new System.Drawing.Point(332, 19);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(131, 37);
+            this.lblResultado.Size = new System.Drawing.Size(161, 37);
             this.lblResultado.TabIndex = 10;
-            this.lblResultado.Text = "Numero";
+            this.lblResultado.Text = "Resultado";
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnOperar
@@ -92,6 +92,7 @@
             this.btnCerrar.TabIndex = 5;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnConvertirABinario
             // 
@@ -139,7 +140,7 @@
             this.cmbOperador.TabIndex = 1;
             this.cmbOperador.SelectedIndexChanged += new System.EventHandler(this.cmbOperador_SelectedIndexChanged);
             // 
-            // Calculadora
+            // MiCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -157,11 +158,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Calculadora";
+            this.Name = "MiCalculadora";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora de Lucas Valdiviezo del Curso 2°C";
-            this.Load += new System.EventHandler(this.Calculadora_Load);
+            this.Load += new System.EventHandler(this.MiCalculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

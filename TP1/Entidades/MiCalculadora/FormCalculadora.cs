@@ -12,15 +12,15 @@ using System.Windows.Forms;
 
 namespace MiCalculadora
 {
-    public partial class Calculadora : Form
+    public partial class MiCalculadora : Form
     {
         
-        public Calculadora()
+        public MiCalculadora()
         {
             InitializeComponent();
         }
 
-        private void Calculadora_Load(object sender, EventArgs e)
+        private void MiCalculadora_Load(object sender, EventArgs e)
         {
 
         }
@@ -32,7 +32,7 @@ namespace MiCalculadora
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-          Calculadora.Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text);
+          MiCalculadora.Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text);
         }
 
         private void txtNumero2_TextChanged(object sender, EventArgs e)
@@ -53,7 +53,7 @@ namespace MiCalculadora
         private static double Operar(string numero1, string numero2, string operador)
         {
             double retorno=0;
-
+            
            
             return retorno;
         }
@@ -63,6 +63,11 @@ namespace MiCalculadora
             txtNumero2.Clear();
             txtNumero1.Clear();
             cmbOperador.ResetText();
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
