@@ -13,7 +13,10 @@ namespace Entidades
 
         private string SetNumero
         {
-            set { numero = ValidarNumero(value); }
+            set
+            {
+               numero = ValidarNumero(value);
+            }
         }
 
         public Numero()
@@ -35,11 +38,18 @@ namespace Entidades
         {
             int i;
             double retorno=1;
+            int contadorPuntos = 0;
             int flag = 1;
 
             for(i=0;i<strNumero.Length;i++)
             {
-                if(strNumero[i] < '0' || strNumero[i] > '9')
+                if (strNumero[i] == '.' && contadorPuntos == 0)
+                {
+                    contadorPuntos++;
+                    i++;
+                    continue;
+                }
+                if (strNumero[i] < '0' || strNumero[i] > '9')
                 {
                     retorno = 0;
                     flag = 0;
@@ -57,11 +67,12 @@ namespace Entidades
         public string DecimalBinario(double numero)
         {
             String cadena = "";
-            if (numero > 0)
+            int auxNumero = (int)numero;
+            if (auxNumero > 0)
             {
-                while (numero > 0)
+                while (auxNumero > 0)
                 {
-                    if (numero % 2 == 0)
+                    if (auxNumero % 2 == 0)
                     {
                         cadena =  "0" + cadena ;
                     }
@@ -69,7 +80,7 @@ namespace Entidades
                     {
                         cadena = "1" + cadena;
                     }
-                    numero = numero / 2;
+                    auxNumero = auxNumero / 2;
                 }
             }else
             {
@@ -82,7 +93,6 @@ namespace Entidades
         {
             String cadena = "";
             int auxNumero;
-            int.TryParse(numero, out auxNumero);
             if (int.TryParse(numero, out auxNumero)  && auxNumero > 0)
             {
                 while (auxNumero > 0)
@@ -130,6 +140,7 @@ namespace Entidades
         {
             double resultado;
             resultado = n1.numero / n2.numero;
+            
             return resultado;
         }
     }

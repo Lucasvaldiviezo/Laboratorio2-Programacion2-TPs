@@ -33,8 +33,9 @@ namespace MiCalculadora
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-          MiCalculadora.Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text);
-          lblResultado.Text = Convert.ToString(MiCalculadora.Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text));
+            double resultado;
+            resultado = MiCalculadora.Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text);
+            lblResultado.Text = Convert.ToString(resultado);
         }
 
         private void txtNumero2_TextChanged(object sender, EventArgs e)
