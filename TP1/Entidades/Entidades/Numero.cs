@@ -127,7 +127,10 @@ namespace Entidades
             int i;
             double total = 0;
             double potencia = 0;
-            string retorno;
+            int flag = 0;
+            string cadena="";
+
+
             for(i=binario.Length-1;i>=0;i--)
             {
               if(binario[i] == '1')
@@ -137,10 +140,18 @@ namespace Entidades
               }else if (binario[i] == '0')
               {
                     potencia++;
+              }else
+              {
+                    cadena = "Valor invalido";
+                    flag = 1;
+                    break;
               }
             }
-            retorno = Convert.ToString(total);
-            return retorno;
+            if(flag==0)
+            {
+                cadena = Convert.ToString(total);
+            } 
+            return cadena;
         }
 
         public static double operator +(Numero n1, Numero n2)

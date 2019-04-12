@@ -54,10 +54,11 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(332, 19);
+            this.lblResultado.Location = new System.Drawing.Point(284, 18);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(0, 37);
             this.lblResultado.TabIndex = 10;
+            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnOperar
             // 
