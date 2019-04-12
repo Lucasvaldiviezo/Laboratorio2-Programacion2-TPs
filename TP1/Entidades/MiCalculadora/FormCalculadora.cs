@@ -67,6 +67,7 @@ namespace MiCalculadora
             txtNumero2.Clear();
             txtNumero1.Clear();
             cmbOperador.ResetText();
+            lblResultado.ResetText();
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -86,6 +87,12 @@ namespace MiCalculadora
             //Version con String
             Numero numDecimal = new Numero(0);
             lblResultado.Text = numDecimal.DecimalBinario(lblResultado.Text);
+        }
+
+        private void btnConvertirADecimal_Click(object sender, EventArgs e)
+        {
+            Numero numDecimal = new Numero(10);
+            lblResultado.Text = numDecimal.BinarioDecimal(lblResultado.Text);
         }
     }
 }

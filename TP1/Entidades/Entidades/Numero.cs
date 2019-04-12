@@ -122,6 +122,27 @@ namespace Entidades
             return cadena;
         }
 
+        public string BinarioDecimal(string binario)
+        {
+            int i;
+            double total = 0;
+            double potencia = 0;
+            string retorno;
+            for(i=binario.Length-1;i>=0;i--)
+            {
+              if(binario[i] == '1')
+              {
+                    total = total + (Math.Pow(2,potencia)*1);
+                    potencia++;
+              }else if (binario[i] == '0')
+              {
+                    potencia++;
+              }
+            }
+            retorno = Convert.ToString(total);
+            return retorno;
+        }
+
         public static double operator +(Numero n1, Numero n2)
         {
             double resultado;
