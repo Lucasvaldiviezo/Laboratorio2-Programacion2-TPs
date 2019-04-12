@@ -72,5 +72,19 @@ namespace MiCalculadora
         {
             this.Close();
         }
+
+        private void btnConvertirABinario_Click(object sender, EventArgs e)
+        {
+            //Version con Double
+            /*double auxNumero;
+            if(double.TryParse(lblResultado.Text, out auxNumero))
+            {
+                Numero numDecimal = new Numero(auxNumero);
+                lblResultado.Text = numDecimal.DecimalBinario(auxNumero);
+            }*/
+            //Version con String
+            Numero numDecimal = new Numero(0);
+            lblResultado.Text = numDecimal.DecimalBinario(lblResultado.Text);
+        }
     }
 }

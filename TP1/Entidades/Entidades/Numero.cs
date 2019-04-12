@@ -63,13 +63,13 @@ namespace Entidades
                 {
                     if (numero % 2 == 0)
                     {
-                        cadena = cadena + "0";
+                        cadena =  "0" + cadena ;
                     }
                     else
                     {
-                        cadena = cadena + "1";
+                        cadena = "1" + cadena;
                     }
-                    numero = (int)(numero / 2);
+                    numero = numero / 2;
                 }
             }else
             {
@@ -81,7 +81,27 @@ namespace Entidades
         public string DecimalBinario(string numero)
         {
             String cadena = "";
-            
+            int auxNumero;
+            int.TryParse(numero, out auxNumero);
+            if (int.TryParse(numero, out auxNumero)  && auxNumero > 0)
+            {
+                while (auxNumero > 0)
+                {
+                    if (auxNumero % 2 == 0)
+                    {
+                        cadena = "0" + cadena;
+                    }
+                    else
+                    {
+                        cadena = "1" + cadena;
+                    }
+                    auxNumero = auxNumero / 2;
+                }
+            }
+            else
+            {
+                cadena = "Valor invalido";
+            }
             return cadena;
         }
 
