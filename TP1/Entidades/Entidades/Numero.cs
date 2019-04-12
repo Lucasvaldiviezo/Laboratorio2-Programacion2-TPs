@@ -39,13 +39,20 @@ namespace Entidades
             int i;
             double retorno=1;
             int contadorPuntos = 0;
+            int contadorGuiones = 0;
             int flag = 1;
 
             for(i=0;i<strNumero.Length;i++)
             {
                 if (strNumero[i] == '.' && contadorPuntos == 0)
                 {
-                    contadorPuntos++;
+                    contadorPuntos=1;
+                    i++;
+                    continue;
+                }
+                if(strNumero[i] == '-' && contadorGuiones == 0)
+                {
+                    contadorGuiones = 1;
                     i++;
                     continue;
                 }
@@ -139,8 +146,7 @@ namespace Entidades
         public static double operator /(Numero n1, Numero n2)
         {
             double resultado;
-            resultado = n1.numero / n2.numero;
-            
+            resultado = n1.numero / n2.numero;  
             return resultado;
         }
     }

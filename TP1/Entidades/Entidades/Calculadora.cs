@@ -47,6 +47,10 @@ namespace Entidades
             else if(auxOperador == "/")
             {
                 resultado = num1 / num2;
+                if(Double.IsInfinity(resultado))
+                {
+                    resultado = double.MinValue;
+                }
             }
 
             return resultado;
