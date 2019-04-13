@@ -37,14 +37,14 @@ namespace Entidades
         private double ValidarNumero(string strNumero)
         {
             int i;
-            double retorno=1;
+            double retorno=0;
             int contadorPuntos = 0;
             int contadorGuiones = 0;
             int flag = 1;
 
             for(i=0;i<strNumero.Length;i++)
             {
-                if (strNumero[i] == '.' && contadorPuntos == 0)
+                if (strNumero[i] == ',' && contadorPuntos == 0)
                 {
                     contadorPuntos=1;
                     i++;
@@ -65,7 +65,7 @@ namespace Entidades
             }
             if(flag == 1)
             {
-                double.TryParse(strNumero,out retorno);
+                    double.TryParse(strNumero, out retorno);   
             }
 
             return retorno;
