@@ -38,15 +38,19 @@ namespace Entidades
         {
             int i;
             double retorno=0;
-            int contadorPuntos = 0;
+            int contadorComas = 0;
             int contadorGuiones = 0;
             int flag = 1;
 
             for(i=0;i<strNumero.Length;i++)
             {
-                if (strNumero[i] == ',' && contadorPuntos == 0)
+                if (strNumero[i] == ',' || strNumero[i] == '.' && contadorComas == 0)
                 {
-                    contadorPuntos=1;
+                    if(strNumero[i] == '.')
+                    {
+                        strNumero = strNumero.Replace('.', ',');
+                    }
+                    contadorComas =1;
                     i++;
                     continue;
                 }
