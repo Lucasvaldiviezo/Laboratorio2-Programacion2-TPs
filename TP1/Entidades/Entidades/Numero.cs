@@ -103,8 +103,11 @@ namespace Entidades
         public string DecimalBinario(string numero)
         {
             String cadena = "";
+            double convert;
             int auxNumero;
-            if (int.TryParse(numero, out auxNumero)  && auxNumero > 0)
+            double.TryParse(numero, out convert);
+            auxNumero = (int)convert;
+            if (auxNumero > 0)
             {
                 while (auxNumero > 0)
                 {
