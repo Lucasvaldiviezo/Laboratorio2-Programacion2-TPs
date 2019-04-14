@@ -85,7 +85,7 @@ namespace MiCalculadora
                 lblResultado.Text = numDecimal.DecimalBinario(auxNumero);
             }*/
             //Version con String
-            Numero numDecimal = new Numero(0);
+            Numero numDecimal = new Numero();
             lblResultado.Text = numDecimal.DecimalBinario(lblResultado.Text);
         }
 

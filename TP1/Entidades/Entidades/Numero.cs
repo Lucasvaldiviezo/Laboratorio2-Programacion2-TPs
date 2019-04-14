@@ -107,25 +107,7 @@ namespace Entidades
             int auxNumero;
             double.TryParse(numero, out convert);
             auxNumero = (int)convert;
-            if (auxNumero > 0)
-            {
-                while (auxNumero > 0)
-                {
-                    if (auxNumero % 2 == 0)
-                    {
-                        cadena = "0" + cadena;
-                    }
-                    else
-                    {
-                        cadena = "1" + cadena;
-                    }
-                    auxNumero = auxNumero / 2;
-                }
-            }
-            else
-            {
-                cadena = "Valor invalido";
-            }
+            cadena = DecimalBinario(auxNumero);
             return cadena;
         }
 
