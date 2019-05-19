@@ -22,7 +22,10 @@ namespace Entidades
                 return 104;
             }
         }
-
+        /// <summary>
+        /// Devolvera un string con todos los datos de la Snacks y la clase base.
+        /// </summary>
+        /// <returns></returns>
         public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

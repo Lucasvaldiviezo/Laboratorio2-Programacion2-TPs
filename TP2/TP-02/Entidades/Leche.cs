@@ -40,7 +40,10 @@ namespace Entidades
                 return 20;
             }
         }
-
+        /// <summary>
+        /// Devolvera un string con todos los datos de la Leche y la clase base.
+        /// </summary>
+        /// <returns></returns>
         public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

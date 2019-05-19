@@ -22,7 +22,10 @@ namespace Entidades
                 return 80;
             }
         }
-
+        /// <summary>
+        /// Devolvera un string con todos los datos de la Dulce y la clase base.
+        /// </summary>
+        /// <returns></returns>
         public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

@@ -43,7 +43,7 @@ namespace Entidades
         #region "Métodos"
 
         /// <summary>
-        /// Expone los datos del elemento y su lista (incluidas sus herencias)
+        /// Devuelve los datos del elemento y su lista (incluidas sus herencias)
         /// SOLO del tipo requerido
         /// </summary>
         /// <param name="c">Elemento a exponer</param>

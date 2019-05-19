@@ -39,7 +39,10 @@ namespace Entidades
          {
             return (string)this;
         }
-
+        /// <summary>
+        /// Recibe un producto y devuelve un string con todos sus datos.
+        /// </summary>
+        /// <returns></returns>
         public static explicit operator string(Producto p)
         {
             StringBuilder sb = new StringBuilder();
