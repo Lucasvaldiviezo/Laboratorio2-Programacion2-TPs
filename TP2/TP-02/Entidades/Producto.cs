@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Entidades
 {
     /// <summary>
-    /// La clase Producto no deberá permitir que se instancien elementos de este tipo.
+    /// La clase Producto sera abstract y heredera a Dulce, Leche y Snacks.
     /// </summary>
     public abstract class Producto
     {
