@@ -50,31 +50,28 @@ namespace ClasesAbstractas
         {
         }
 
-        public Persona(string nombre, string apellido, ENacionalidad nacionalidad) : this(nombre,apellido,0,nacionalidad)
-        {
-        }
-
-        public Persona(string nombre, string apellido,int dni, ENacionalidad nacionalidad)
+        public Persona(string nombre, string apellido, ENacionalidad nacionalidad) 
         {
             Apellido = apellido;
             Nombre = nombre;
-            DNI = dni;
             Nacionalidad = nacionalidad;
         }
 
-        public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad)
+        public Persona(string nombre, string apellido,int dni, ENacionalidad nacionalidad) : this(nombre, apellido, nacionalidad)
+        {  
+            DNI = dni; 
+        }
+
+        public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad) : this(nombre, apellido, nacionalidad)
         {
-            Apellido = apellido;
-            Nombre = nombre;
             StringToDNI = dni;
-            Nacionalidad = nacionalidad;
         }
 
         public override string ToString()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendFormat("Nombre: {0}\nApellido: {1}\n", Nombre, Apellido);
-            mostrar.AppendFormat("Nacionalidad: {0}\nDNI: {1}", Nacionalidad, DNI);
+            mostrar.AppendFormat("NOMBRE COMPLETO: {0},{1}\n", Apellido, Nombre);
+            mostrar.AppendFormat("NACIONALIDAD: {0}\nDNI: {1}", Nacionalidad, DNI);
 
             return mostrar.ToString();
         }
