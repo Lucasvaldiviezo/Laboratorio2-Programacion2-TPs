@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesInstanciables", "ClasesInstanciables\ClasesInstanciables.csproj", "{7C66D540-42D4-4CC2-830D-CF8A552966D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archivos.csproj", "{60F06BC9-B460-4AB0-9EFE-E9AD808261D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7C66D540-42D4-4CC2-830D-CF8A552966D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C66D540-42D4-4CC2-830D-CF8A552966D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C66D540-42D4-4CC2-830D-CF8A552966D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F06BC9-B460-4AB0-9EFE-E9AD808261D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F06BC9-B460-4AB0-9EFE-E9AD808261D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F06BC9-B460-4AB0-9EFE-E9AD808261D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F06BC9-B460-4AB0-9EFE-E9AD808261D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

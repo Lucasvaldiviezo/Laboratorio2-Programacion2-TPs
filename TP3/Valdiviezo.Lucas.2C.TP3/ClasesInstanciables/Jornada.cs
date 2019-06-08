@@ -56,6 +56,8 @@ namespace ClasesInstanciables
             return mostrar.ToString();
         }
 
+        
+
         public static bool operator ==(Jornada j, Alumno a)
         {
             bool retorno = false;
