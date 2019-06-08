@@ -61,11 +61,14 @@ namespace ClasesInstanciables
 
         public bool Guardar(Jornada jornada)
         {
+            bool retorno = false;
             Texto nuevoTexto = new Texto();
             if(nuevoTexto.Guardar("Jornada.txt",jornada.ToString()) == false)
             {
-                throw new ArchivosException();
+               
             }
+
+            return retorno;
         }
 
         public static bool operator ==(Jornada j, Alumno a)
