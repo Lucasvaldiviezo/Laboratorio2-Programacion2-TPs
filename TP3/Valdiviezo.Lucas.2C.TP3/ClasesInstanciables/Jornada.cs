@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Archivos;
+using Excepciones;
+
 
 namespace ClasesInstanciables
 {
@@ -56,7 +59,14 @@ namespace ClasesInstanciables
             return mostrar.ToString();
         }
 
-        
+        public bool Guardar(Jornada jornada)
+        {
+            Texto nuevoTexto = new Texto();
+            if(nuevoTexto.Guardar("Jornada.txt",jornada.ToString()) == false)
+            {
+                throw new ArchivosException();
+            }
+        }
 
         public static bool operator ==(Jornada j, Alumno a)
         {

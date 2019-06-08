@@ -78,16 +78,25 @@ namespace ClasesAbstractas
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
             int retorno = 0;
-            if(nacionalidad == ENacionalidad.Argentino && dato > 1 && dato < 89999999)
+            if(dni > 1 && dni < 99999999)
             {
-                retorno = dato;
-            }else if (nacionalidad == ENacionalidad.Extranjero && dato > 90000000 && dato < 99999999)
-            {
-                retorno = dato;
+                if (nacionalidad == ENacionalidad.Argentino && dato < 89999999)
+                {
+                    retorno = dato;
+                }
+                else if (nacionalidad == ENacionalidad.Extranjero && dato > 90000000 && dato < 99999999)
+                {
+                    retorno = dato;
+                }
+                else
+                {
+                    throw new NacionalidadInvalidaException("El DNI y la Nacionalidad no coinciden");
+                }
             }else
             {
-                throw new NacionalidadInvalidaException("Ingreso una nacionalidad invalida, revise su nacionalidad o numnero de DNI");
+                throw new DniInvalidoException("El DNI ingresado esta fuera de rango");
             }
+            
 
             return retorno;
         }
@@ -102,8 +111,9 @@ namespace ClasesAbstractas
                 retorno = ValidarDni(nacionalidad, auxDato);
             }else
             {
-                throw new NacionalidadInvalidaException("Lo que ingreso no es un DNI, ingrese solo valores numericos");
+                throw new DniInvalidoException("El DNI ingresado contiene caracteres invalidos");
             }
+
             return retorno;
         }
         private string ValidarNombreApellido(string dato)
