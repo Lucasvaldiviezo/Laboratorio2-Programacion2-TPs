@@ -8,6 +8,10 @@ namespace Excepciones
 {
     public class ArchivosException : Exception
     {
+        /// <summary>
+        /// Constructor de instancia.
+        /// <param name="e">Excepcion Recibida. </param>
+        /// </summary>
         public ArchivosException(Exception innerException) : base("Error al Leer/Guardar el archivo",innerException)
         {
 
