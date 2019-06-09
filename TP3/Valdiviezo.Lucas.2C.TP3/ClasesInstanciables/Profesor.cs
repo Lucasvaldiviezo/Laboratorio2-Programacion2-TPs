@@ -106,7 +106,7 @@ namespace ClasesInstanciables
         protected override string ParticiparEnClase()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendLine("||CLASES DEL DIA:||");
+            mostrar.AppendLine("CLASES DEL DIA:");
             foreach(Universidad.EClases clase in claseDelDia)
             {
                 mostrar.AppendFormat("{0}\n", clase);
@@ -131,7 +131,8 @@ namespace ClasesInstanciables
         public override string ToString()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendFormat(MostrarDatos(), ParticiparEnClase());
+            mostrar.AppendFormat(MostrarDatos());
+            mostrar.AppendFormat(ParticiparEnClase());
             return mostrar.ToString();
         }
     }

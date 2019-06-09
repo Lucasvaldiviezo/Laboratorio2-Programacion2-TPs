@@ -82,10 +82,20 @@ namespace Valdiviezo.Lucas._2C.TP3
             }
             Console.WriteLine(gim.ToString());
             Console.ReadKey(); Console.Clear();
-            try { Universidad.Guardar(gim); Console.WriteLine("Archivo de Universidad guardado."); } catch (ArchivosException e) { Console.WriteLine(e.Message); }
             try
             {
-                int jornada = 0; Jornada.Guardar(gim[jornada]); Console.WriteLine("Archivo de Jornada {0} guardado.", jornada); //Console.WriteLine(Jornada.Leer()); 
+                Universidad.Guardar(gim);
+                Console.WriteLine("Archivo de Universidad guardado.");
+            }
+            catch (ArchivosException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            try
+            {
+                int jornada = 0;
+                Jornada.Guardar(gim[jornada]);
+                Console.WriteLine("Archivo de Jornada {0} guardado.", jornada); //Console.WriteLine(Jornada.Leer()); 
             }
             catch (ArchivosException e)
             {

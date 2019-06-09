@@ -63,14 +63,15 @@ namespace ClasesInstanciables
         public override string ToString()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendFormat("CLASE DE {0} \n POR NOMBRE COMPLETO:", Clase);
+            mostrar.AppendLine("JORNADA:");
+            mostrar.AppendFormat("CLASE DE {0} POR ", Clase);
             mostrar.AppendFormat(Instructor.ToString());
-            mostrar.AppendLine("ALUMNOS:\n");
+            mostrar.AppendLine("\nALUMNOS:");
             foreach(Alumno a in Alumnos)
             {
                 mostrar.AppendFormat(a.ToString());
             }
-
+            mostrar.AppendLine("<-------------------------------------------->");
             return mostrar.ToString();
         }
         /// <summary>

@@ -11,7 +11,7 @@ namespace Excepciones
         /// <summary>
         /// Constructor por defecto.
         /// </summary>
-        public SinProfesorException() : base("Ningun profesor da la clase")
+        public SinProfesorException() : base("No hay profesor para la clase")
         {
 
         }

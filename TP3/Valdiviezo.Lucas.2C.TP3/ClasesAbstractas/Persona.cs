@@ -106,7 +106,7 @@ namespace ClasesAbstractas
         {
             StringBuilder mostrar = new StringBuilder();
             mostrar.AppendFormat("NOMBRE COMPLETO: {0},{1}\n", Apellido, Nombre);
-            mostrar.AppendFormat("NACIONALIDAD: {0}\nDNI: {1}", Nacionalidad, DNI);
+            mostrar.AppendFormat("NACIONALIDAD: {0}", Nacionalidad);
 
             return mostrar.ToString();
         }
@@ -131,7 +131,7 @@ namespace ClasesAbstractas
                 }
                 else
                 {
-                    throw new NacionalidadInvalidaException("El DNI y la Nacionalidad no coinciden");
+                    throw new NacionalidadInvalidaException("La nacionalidad no se condice con el número de DNI");
                 }
             }else
             {

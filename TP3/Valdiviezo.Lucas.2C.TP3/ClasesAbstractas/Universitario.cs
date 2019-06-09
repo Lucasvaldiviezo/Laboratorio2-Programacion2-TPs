@@ -44,7 +44,7 @@ namespace ClasesAbstractas
         protected virtual string MostrarDatos()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendFormat("{0}\nN° Legajo: {1}\n", base.ToString(), legajo);
+            mostrar.AppendFormat("{0}\nLEGAJO NÚMERO: {1}", base.ToString(), legajo);
 
             return mostrar.ToString();
         }

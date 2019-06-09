@@ -11,7 +11,7 @@ namespace Excepciones
         /// <summary>
         /// Constructor por defecto.
         /// </summary>
-        public AlumnoRepetidoException() : base("Ese alumno ya se encuentra agregado")
+        public AlumnoRepetidoException() : base("Alumno repetido")
         {
 
         }

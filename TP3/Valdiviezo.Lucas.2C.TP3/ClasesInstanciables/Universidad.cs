@@ -92,12 +92,13 @@ namespace ClasesInstanciables
             }
             foreach (Profesor p in uni.Profesores)
             {
-                mostrar.AppendLine(p.ToString());
+                mostrar.AppendFormat("Profesor:\n{0}\n",p.ToString());
             }
             foreach (Alumno a in uni.Alumnos)
             {
-                mostrar.AppendLine(a.ToString());
+                mostrar.AppendFormat("Alumno:\n{0}", a.ToString());
             }
+            
 
             return mostrar.ToString();
         }
@@ -120,7 +121,7 @@ namespace ClasesInstanciables
             Xml<Universidad> nuevoSerializacion = new Xml<Universidad>();
             try
             {
-                nuevoSerializacion.Guardar("Jornada.txt", uni);
+                nuevoSerializacion.Guardar("Universidad", uni);
                 retorno = true;
             }
             catch(ArchivosException e)
@@ -142,7 +143,7 @@ namespace ClasesInstanciables
             try
             {
                 
-                nuevoSerializacion.Leer("Jornada.txt", out retorno);
+                nuevoSerializacion.Leer("Universidad", out retorno);
                 
             }
             catch (ArchivosException e)

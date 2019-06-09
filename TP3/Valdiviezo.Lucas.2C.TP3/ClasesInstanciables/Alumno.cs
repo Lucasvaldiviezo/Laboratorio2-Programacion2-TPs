@@ -91,7 +91,7 @@ namespace ClasesInstanciables
         protected override string MostrarDatos()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendFormat("{0} Estado de Cuenta: {1}\n", base.MostrarDatos(), estadoCuenta);
+            mostrar.AppendFormat("{0}\nESTADO DE CUENTA: {1}\n", base.MostrarDatos(), estadoCuenta);
             return mostrar.ToString();
         }
         /// <summary>
@@ -101,7 +101,7 @@ namespace ClasesInstanciables
         protected override string ParticiparEnClase()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendFormat("\nTOMA CLASE DE: {0}",claseQueToma);
+            mostrar.AppendFormat("TOMA CLASE DE: {0}\n\n",claseQueToma);
             return mostrar.ToString();
         }
         /// <summary>
@@ -111,7 +111,8 @@ namespace ClasesInstanciables
         public override string ToString()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendFormat(MostrarDatos(), ParticiparEnClase());
+            mostrar.AppendFormat(MostrarDatos());
+            mostrar.AppendFormat(ParticiparEnClase());
             return mostrar.ToString();
         }
     }
