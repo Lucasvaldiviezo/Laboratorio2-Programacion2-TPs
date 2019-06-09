@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Excepciones
 {
-    public class AlumnoRepetidoExcepcion : Exception
+    public class AlumnoRepetidoException : Exception
     {
-        public AlumnoRepetidoExcepcion() : base("Ese alumno ya se encuentra agregado")
+        public AlumnoRepetidoException() : base("Ese alumno ya se encuentra agregado")
         {
 
         }

@@ -1,0 +1,6 @@
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Excepciones\bin\Debug\Excepciones.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Excepciones\bin\Debug\Excepciones.pdb
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Excepciones\obj\Debug\Excepciones.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Excepciones\obj\Debug\Excepciones.pdb

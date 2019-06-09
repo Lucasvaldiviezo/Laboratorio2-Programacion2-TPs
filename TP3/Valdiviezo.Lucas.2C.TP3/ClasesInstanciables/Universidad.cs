@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ClasesAbstractas;
 using Excepciones;
+using Archivos;
 
 namespace ClasesInstanciables
 {
@@ -49,14 +50,14 @@ namespace ClasesInstanciables
         {
             get
             {
-                if (i>= 0 && i < Jornadas.Count)
+                if (i >= 0 && i < Jornadas.Count)
                 {
                     return Jornadas[i];
-                }else
+                } else
                 {
                     return null;
                 }
-                
+
             }
             set
             {
@@ -74,11 +75,11 @@ namespace ClasesInstanciables
             {
                 mostrar.AppendLine(j.ToString());
             }
-            foreach(Profesor p in uni.Profesores)
+            foreach (Profesor p in uni.Profesores)
             {
                 mostrar.AppendLine(p.ToString());
             }
-            foreach(Alumno a in uni.Alumnos)
+            foreach (Alumno a in uni.Alumnos)
             {
                 mostrar.AppendLine(a.ToString());
             }
@@ -91,41 +92,44 @@ namespace ClasesInstanciables
             return MostrarDatos(this);
         }
 
-        public static Universidad operator +(Universidad u, Alumno a)
+        public static bool Guardar(Universidad uni)
         {
-            if(u != a)
+            bool retorno = false;
+            Xml<Universidad> nuevoSerializacion = new Xml<Universidad>();
+            try
             {
-                u.Alumnos.Add(a);
-            }else
-            {
-                throw new AlumnoRepetidoExcepcion();
+                nuevoSerializacion.Guardar("Jornada.txt", uni);
+                retorno = true;
             }
-            return u;
+            catch(ArchivosException e)
+            {
+                throw new ArchivosException(e);
+            }
+
+            return retorno;
         }
 
-        public static Universidad operator +(Universidad u, Profesor i)
+        public static Universidad Leer()
         {
-            if (u != i)
+
+            Xml<Universidad> nuevoSerializacion = new Xml<Universidad>();
+            Universidad retorno;
+            try
             {
-                u.Profesores.Add(i);
+                
+                nuevoSerializacion.Leer("Jornada.txt", out retorno);
+                
             }
-            return u;
+            catch (ArchivosException e)
+            {
+                throw new ArchivosException(e);
+            }
+
+            return retorno;
         }
 
-        public static Universidad operator +(Universidad g, EClases clase)
-        {
-            Jornada jornada = new Jornada(clase, g == clase);
-            foreach(Alumno alumno in g.Alumnos)
-            {
-                if(alumno == clase)
-                {
-                    jornada.Alumnos.Add(alumno);
-                }
-            }
-            g.Jornadas.Add(jornada);
-
-            return g;
-        }
+        
+        
 
 
         public static Profesor operator ==(Universidad g, EClases clase)
@@ -192,6 +196,44 @@ namespace ClasesInstanciables
         public static bool operator !=(Universidad g, Alumno a)
         {
             return !(g==a);
+        }
+
+        public static Universidad operator +(Universidad u, Alumno a)
+        {
+            if (u != a)
+            {
+                u.Alumnos.Add(a);
+                
+            }
+            else
+            {
+                throw new AlumnoRepetidoException();
+            }
+            return u;
+        }
+
+        public static Universidad operator +(Universidad u, Profesor i)
+        {
+            if (u != i)
+            {
+                u.Profesores.Add(i);
+            }
+            return u;
+        }
+
+        public static Universidad operator +(Universidad g, EClases clase)
+        {
+            Jornada jornada = new Jornada(clase, g == clase);
+            foreach (Alumno alumno in g.Alumnos)
+            {
+                if (alumno == clase)
+                {
+                    jornada.Alumnos.Add(alumno);
+                }
+            }
+            g.Jornadas.Add(jornada);
+
+            return g;
         }
     }
 }

@@ -59,15 +59,34 @@ namespace ClasesInstanciables
             return mostrar.ToString();
         }
 
-        public bool Guardar(Jornada jornada)
+        public static bool Guardar(Jornada jornada)
         {
             bool retorno = false;
             Texto nuevoTexto = new Texto();
-            if(nuevoTexto.Guardar("Jornada.txt",jornada.ToString()) == false)
+            try
             {
-               
+                nuevoTexto.Guardar("Jornada.txt", jornada.ToString());
+                retorno = true;
             }
+            catch(ArchivosException e)
+            {
+                throw new ArchivosException(e);
+            }
+            return retorno;
+        }
 
+        public static string Leer()
+        {
+            string retorno="";
+            Texto nuevoTexto = new Texto();
+            try
+            {
+                nuevoTexto.Leer("Jornada.txt", out retorno);
+            }
+            catch(ArchivosException e)
+            {
+                throw new ArchivosException(e);
+            }
             return retorno;
         }
 

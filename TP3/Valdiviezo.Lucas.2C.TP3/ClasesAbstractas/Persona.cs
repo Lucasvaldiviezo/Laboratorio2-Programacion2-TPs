@@ -18,23 +18,33 @@ namespace ClasesAbstractas
         private int dni;
         private ENacionalidad nacionalidad;
         private string nombre;
-
+        /// <summary>
+        /// Aplica o Devuelve el Apellido de una Persona luego de validarlo.
+        /// </summary>
         public string Apellido
         {
             set { apellido = ValidarNombreApellido(apellido); }
             get { return apellido; }
         }
+        /// <summary>
+        /// Aplica o Devuelve el Nombre de una Persona luego de validarlo.
+        /// </summary>
         public string Nombre
         {
             set { nombre = ValidarNombreApellido(nombre); }
             get { return nombre; }
         }
-
+        /// <summary>
+        /// Aplica o Devuelve el DNI de una Persona luego de validarlo.
+        /// </summary>
         public int DNI
         {
             set { dni = ValidarDni(nacionalidad, value); }
             get { return dni; }
         }
+        /// <summary>
+        /// Aplica o Devuelve la nacionalidad de una Persona.
+        /// </summary>
         public ENacionalidad Nacionalidad
         {
             set { nacionalidad = value; }
@@ -92,9 +102,6 @@ namespace ClasesAbstractas
                 {
                     throw new NacionalidadInvalidaException("El DNI y la Nacionalidad no coinciden");
                 }
-            }else
-            {
-                throw new DniInvalidoException("El DNI ingresado esta fuera de rango");
             }
             
 
@@ -119,13 +126,19 @@ namespace ClasesAbstractas
         private string ValidarNombreApellido(string dato)
         {
             string retorno = dato;
-            for(int i = 0;i<dato.Length;i++)
+            if(dato != null)
             {
-                if (dato[i] < '0' && dato[i] > '9')
+                for (int i = 0; i < dato.Length; i++)
                 {
-                    retorno = "";
-                    break;
+                    if (dato[i] < '0' && dato[i] > '9')
+                    {
+                        retorno = "";
+                        break;
+                    }
                 }
+            }else
+            {
+                dato = "";
             }
             return retorno;
         }

@@ -1,0 +1,13 @@
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\bin\Debug\ClasesInstanciables.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\bin\Debug\ClasesInstanciables.pdb
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\bin\Debug\Archivos.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\bin\Debug\ClasesAbstractas.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\bin\Debug\Excepciones.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\bin\Debug\Archivos.pdb
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\bin\Debug\ClasesAbstractas.pdb
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\bin\Debug\Excepciones.pdb
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csprojAssemblyReference.cache
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CoreCompileInputs.cache
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CopyComplete
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.pdb

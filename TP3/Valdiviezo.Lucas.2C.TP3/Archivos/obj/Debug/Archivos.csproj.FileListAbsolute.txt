@@ -1,0 +1,9 @@
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Archivos\bin\Debug\Archivos.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Archivos\bin\Debug\Archivos.pdb
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Archivos\bin\Debug\Excepciones.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Archivos\bin\Debug\Excepciones.pdb
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Archivos\obj\Debug\Archivos.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Archivos\obj\Debug\Archivos.pdb

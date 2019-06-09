@@ -1,0 +1,16 @@
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\bin\Debug\Valdiviezo.Lucas.2C.TP3.exe.config
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\bin\Debug\Valdiviezo.Lucas.2C.TP3.exe
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\bin\Debug\Valdiviezo.Lucas.2C.TP3.pdb
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\bin\Debug\Archivos.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\bin\Debug\ClasesAbstractas.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\bin\Debug\ClasesInstanciables.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\bin\Debug\Excepciones.dll
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\bin\Debug\Archivos.pdb
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\bin\Debug\ClasesAbstractas.pdb
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\bin\Debug\ClasesInstanciables.pdb
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\bin\Debug\Excepciones.pdb
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\obj\Debug\Valdiviezo.Lucas.2C.TP3.csprojAssemblyReference.cache
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\obj\Debug\Valdiviezo.Lucas.2C.TP3.csproj.CoreCompileInputs.cache
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\obj\Debug\Valdiviezo.Lucas.2C.TP3.csproj.CopyComplete
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\obj\Debug\Valdiviezo.Lucas.2C.TP3.exe
+F:\Lucas\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP3\Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3\obj\Debug\Valdiviezo.Lucas.2C.TP3.pdb
