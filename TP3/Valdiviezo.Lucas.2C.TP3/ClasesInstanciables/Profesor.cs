@@ -17,7 +17,7 @@ namespace ClasesInstanciables
             random = new Random();
         }
 
-        public Profesor() : this(-1,"","","10000000",ENacionalidad.Argentino) 
+        public Profesor()
         {
             
         }

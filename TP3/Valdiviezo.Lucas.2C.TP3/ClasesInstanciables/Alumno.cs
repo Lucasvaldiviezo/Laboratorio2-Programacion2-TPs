@@ -18,7 +18,7 @@ namespace ClasesInstanciables
         private Universidad.EClases claseQueToma;
         private EEstadoCuenta estadoCuenta;
 
-        public Alumno() : this(-1,"","","10000000",ENacionalidad.Argentino,Universidad.EClases.Laboratorio)
+        public Alumno()
         {
 
         }

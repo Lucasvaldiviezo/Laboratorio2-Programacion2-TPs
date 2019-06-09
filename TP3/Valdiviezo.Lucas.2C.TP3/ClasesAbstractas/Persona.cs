@@ -19,7 +19,7 @@ namespace ClasesAbstractas
         private ENacionalidad nacionalidad;
         private string nombre;
         /// <summary>
-        /// Aplica o Devuelve el Apellido de una Persona luego de validarlo.
+        /// Guarda o Devuelve el Apellido de una Persona luego de validarlo.
         /// </summary>
         public string Apellido
         {
@@ -27,7 +27,7 @@ namespace ClasesAbstractas
             get { return apellido; }
         }
         /// <summary>
-        /// Aplica o Devuelve el Nombre de una Persona luego de validarlo.
+        /// Guarda o Devuelve el Nombre de una Persona luego de validarlo.
         /// </summary>
         public string Nombre
         {
@@ -35,7 +35,7 @@ namespace ClasesAbstractas
             get { return nombre; }
         }
         /// <summary>
-        /// Aplica o Devuelve el DNI de una Persona luego de validarlo.
+        /// Guarda o Devuelve el DNI de una Persona luego de validarlo.
         /// </summary>
         public int DNI
         {
@@ -43,40 +43,63 @@ namespace ClasesAbstractas
             get { return dni; }
         }
         /// <summary>
-        /// Aplica o Devuelve la nacionalidad de una Persona.
+        /// Guarda o Devuelve la nacionalidad de una Persona.
         /// </summary>
         public ENacionalidad Nacionalidad
         {
             set { nacionalidad = value; }
             get { return nacionalidad; }
         }
-
+        /// <summary>
+        /// Guarda un DNI(String) luego de validarlo.
+        /// </summary>
         public string StringToDNI
         {
             set { dni = ValidarDni(nacionalidad, value); }
         }
-
-        public Persona() : this("","",ENacionalidad.Argentino)
+        /// <summary>
+        /// Constructor por defecto.
+        /// </summary>
+        public Persona()
         {
         }
-
+        /// <summary>
+        /// Constructor publico de instancia.
+        /// <param name="nombre">Nombre de la persona. </param>
+        /// <param name="apellido">Apellido de la persona. </param>
+        /// <param name="nacionalidad">Nacionalidad de la persona(Puede ser Argentino o Extranjero). </param>
+        /// </summary>
         public Persona(string nombre, string apellido, ENacionalidad nacionalidad) 
         {
             Apellido = apellido;
             Nombre = nombre;
             Nacionalidad = nacionalidad;
         }
-
+        /// <summary>
+        /// Constructor publico de instancia.
+        /// <param name="nombre">Nombre de la persona. </param>
+        /// <param name="apellido">Apellido de la persona. </param>
+        /// <param name="dni">DNI(INT) de la persona. </param>
+        /// <param name="nacionalidad">Nacionalidad de la persona(Puede ser Argentino o Extranjero). </param>
+        /// </summary>
         public Persona(string nombre, string apellido,int dni, ENacionalidad nacionalidad) : this(nombre, apellido, nacionalidad)
         {  
             DNI = dni; 
         }
-
+        /// <summary>
+        /// Constructor publico de instancia.
+        /// <param name="nombre">Nombre de la persona. </param>
+        /// <param name="apellido">Apellido de la persona. </param>
+        /// <param name="dni">DNI(STRING) de la persona. </param>
+        /// <param name="nacionalidad">Nacionalidad de la persona(Puede ser Argentino o Extranjero). </param>
+        /// </summary>
         public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad) : this(nombre, apellido, nacionalidad)
         {
             StringToDNI = dni;
         }
-
+        /// <summary>
+        /// Metodo sobreescrito de ToString, el cual devuelve todos los datos de una persona.
+        /// </summary>
         public override string ToString()
         {
             StringBuilder mostrar = new StringBuilder();
@@ -85,6 +108,11 @@ namespace ClasesAbstractas
 
             return mostrar.ToString();
         }
+        /// <summary>
+        /// Validador de DNI(INT).
+        /// <param name="nacionalidad">Nacionalidad de la persona. </param>
+        /// <param name="dato">DNI de la persona(INT). </param>
+        /// </summary>
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
             int retorno = 0;
@@ -107,7 +135,11 @@ namespace ClasesAbstractas
 
             return retorno;
         }
-
+        /// <summary>
+        /// Validador de DNI(String).
+        /// <param name="nacionalidad">Nacionalidad de la persona. </param>
+        /// <param name="dato">DNI de la persona(String). </param>
+        /// </summary>
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
             int retorno = 0;
@@ -123,6 +155,10 @@ namespace ClasesAbstractas
 
             return retorno;
         }
+        /// <summary>
+        /// Validador de String, mas especificamente nombre o apellido de una persona.
+        /// <param name="dato">Nombre o Apellido de la persona. </param>
+        /// </summary>
         private string ValidarNombreApellido(string dato)
         {
             string retorno = dato;
