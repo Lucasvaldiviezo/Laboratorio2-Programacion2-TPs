@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
+using System.Text.RegularExpressions;
 
 namespace ClasesAbstractas
 {
@@ -23,7 +24,7 @@ namespace ClasesAbstractas
         /// </summary>
         public string Apellido
         {
-            set { apellido = ValidarNombreApellido(apellido); }
+            set { apellido = ValidarNombreApellido(value); }
             get { return apellido; }
         }
         /// <summary>
@@ -31,7 +32,7 @@ namespace ClasesAbstractas
         /// </summary>
         public string Nombre
         {
-            set { nombre = ValidarNombreApellido(nombre); }
+            set { nombre = ValidarNombreApellido(value); }
             get { return nombre; }
         }
         /// <summary>
@@ -166,19 +167,13 @@ namespace ClasesAbstractas
         private string ValidarNombreApellido(string dato)
         {
             string retorno = dato;
-            if(dato != null)
+            for (int i = 0; i < dato.Length; i++)
             {
-                for (int i = 0; i < dato.Length; i++)
+                if (dato[i] < 'A' && dato[i] > 'Z' || dato[i] < 'a' && dato[i] > 'z')
                 {
-                    if (dato[i] < '0' && dato[i] > '9')
-                    {
-                        retorno = "";
-                        break;
-                    }
+                    retorno = "";
+                    break;
                 }
-            }else
-            {
-                dato = "";
             }
             return retorno;
         }
