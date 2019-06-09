@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valdiviezo.Lucas.2C.TP3", "Valdiviezo.Lucas.2C.TP3\Valdiviezo.Lucas.2C.TP3.csproj", "{AF8BE26F-385A-4A39-AAB0-913CB72DB878}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTP3", "TestTP3\TestTP3.csproj", "{7800B096-21EA-4C22-AE08-8CEA3450E192}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AF8BE26F-385A-4A39-AAB0-913CB72DB878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8BE26F-385A-4A39-AAB0-913CB72DB878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8BE26F-385A-4A39-AAB0-913CB72DB878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7800B096-21EA-4C22-AE08-8CEA3450E192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7800B096-21EA-4C22-AE08-8CEA3450E192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7800B096-21EA-4C22-AE08-8CEA3450E192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7800B096-21EA-4C22-AE08-8CEA3450E192}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
