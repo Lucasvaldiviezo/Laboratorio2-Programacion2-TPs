@@ -10,6 +10,12 @@ namespace Archivos
 {
     public class Xml<T> : IArchivo<T>
     {
+        /// <summary>
+        /// Permite guardar datos recibidos en un archivo serializado. 
+        /// </summary>
+        /// <param name="archivo">Ruta de donde se obtendra el archivo.</param>
+        /// <param name="datos">Datos a guardar en el archivo.</param>
+        /// <returns>Devuelve true si guardo satisfactoriamente o false si se produjeron excepciones.</returns>
         public bool Guardar(string archivo, T datos)
         {
             XmlSerializer serializador = new XmlSerializer(typeof(T));
@@ -30,7 +36,12 @@ namespace Archivos
             }
             return retorno;
         }
-
+        /// <summary>
+        /// Permite leer datos de un archivo serializado. 
+        /// </summary>
+        /// <param name="archivo">Ruta de donde se obtendra el archivo.</param>
+        /// <param name="datos">Variable donde se guardaran los datos del archivo.</param>
+        /// <returns>Devuelve true si leyo satisfactoriamente o false si se produjeron excepciones.</returns>
         public bool Leer(string archivo, out T datos)
         {
             XmlSerializer serializador = new XmlSerializer(typeof(T));

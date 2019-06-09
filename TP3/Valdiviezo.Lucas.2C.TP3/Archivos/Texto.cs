@@ -10,6 +10,12 @@ namespace Archivos
 {
     public class Texto : IArchivo<String>
     {
+        /// <summary>
+        /// Permite guardar lo datos recibidos en un archivo de texto. 
+        /// </summary>
+        /// <param name="archivo">Ruta donde se guardará el archivo.</param>
+        /// <param name="datos">Datos que se guardaran en el archivo.</param>
+        /// <returns>Devuelve true si guardo satisfactoriamente o false si se produjeron excepciones.</returns>
         public bool Guardar(string archivo, string datos)
         {
             bool retorno = true;
@@ -28,7 +34,12 @@ namespace Archivos
 
             return retorno;
         }
-
+        /// <summary>
+        /// Permite leer datos de un archivo de texto. 
+        /// </summary>
+        /// <param name="archivo">Ruta de donde se obtendra el archivo.</param>
+        /// <param name="datos">Variable donde se guardaran los datos del archivo.</param>
+        /// <returns>Devuelve true si leyo satisfactoriamente o false si se produjeron excepciones.</returns>
         public bool Leer(string archivo, out string datos)
         {
             StreamReader archivotxt = null;

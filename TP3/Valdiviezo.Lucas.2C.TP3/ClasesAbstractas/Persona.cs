@@ -100,6 +100,7 @@ namespace ClasesAbstractas
         /// <summary>
         /// Metodo sobreescrito de ToString, el cual devuelve todos los datos de una persona.
         /// </summary>
+        /// <returns>Datos de la persona.</returns>
         public override string ToString()
         {
             StringBuilder mostrar = new StringBuilder();
@@ -113,6 +114,7 @@ namespace ClasesAbstractas
         /// <param name="nacionalidad">Nacionalidad de la persona. </param>
         /// <param name="dato">DNI de la persona(INT). </param>
         /// </summary>
+        /// <returns>DNI si es valido o 0 si es invalido.</returns>
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
             int retorno = 0;
@@ -140,6 +142,7 @@ namespace ClasesAbstractas
         /// <param name="nacionalidad">Nacionalidad de la persona. </param>
         /// <param name="dato">DNI de la persona(String). </param>
         /// </summary>
+        /// <returns>DNI si es valido o un string vacio si es invalido.</returns>
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
             int retorno = 0;
@@ -159,6 +162,7 @@ namespace ClasesAbstractas
         /// Validador de String, mas especificamente nombre o apellido de una persona.
         /// <param name="dato">Nombre o Apellido de la persona. </param>
         /// </summary>
+        /// <returns>La cadena recibida si es valida o un string vacio si es invalido.</returns>
         private string ValidarNombreApellido(string dato)
         {
             string retorno = dato;

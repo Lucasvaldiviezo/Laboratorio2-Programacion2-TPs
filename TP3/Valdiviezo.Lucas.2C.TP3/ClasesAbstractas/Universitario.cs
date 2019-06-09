@@ -13,6 +13,7 @@ namespace ClasesAbstractas
         /// Sobreescritura del metodo Equals, el cual recibe un objeto y lo devuelve solo si es del Tipo Universitario.
         /// <param name="obj">Objeto a validar. </param>
         /// </summary>
+        /// <returns>Objeto del tipo universitario.</returns>
         public override bool Equals(object obj)
         {
             return obj is Universitario;
@@ -39,6 +40,7 @@ namespace ClasesAbstractas
         /// <summary>
         /// Metodo que podra ser sobreescrito y solo es accesible por la misma clase o sus hijas, el cual devuelve un string con todos los datos del Universitario.
         /// </summary>
+        ///  <returns>String con los datos del universitario.</returns>
         protected virtual string MostrarDatos()
         {
             StringBuilder mostrar = new StringBuilder();
@@ -55,6 +57,7 @@ namespace ClasesAbstractas
         /// <param name="pg1">Primer univesitario a comparar. </param>
         /// <param name="pg2">Segundo univesitario a comparar. </param>
         /// </summary>
+        /// <returns>True si son iguales. False sino lo son.</returns>
         public static bool operator ==(Universitario pg1, Universitario pg2)
         {
             bool retorno = false;
@@ -70,6 +73,7 @@ namespace ClasesAbstractas
         /// <param name="pg1">Primer univesitario a comparar. </param>
         /// <param name="pg2">Segundo univesitario a comparar. </param>
         /// </summary>
+        /// /// <returns>True si son distintos. False sino lo son.</returns>
         public static bool operator !=(Universitario pg1, Universitario pg2)
         {
             return !(pg1 == pg2);
