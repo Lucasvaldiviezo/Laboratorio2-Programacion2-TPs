@@ -119,7 +119,7 @@ namespace ClasesAbstractas
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
             int retorno = 0;
-            if(dni > 1 && dni < 99999999)
+            if(dato > 1 && dato < 99999999)
             {
                 if (nacionalidad == ENacionalidad.Argentino && dato < 89999999)
                 {
@@ -133,6 +133,9 @@ namespace ClasesAbstractas
                 {
                     throw new NacionalidadInvalidaException("El DNI y la Nacionalidad no coinciden");
                 }
+            }else
+            {
+                throw new DniInvalidoException("El DNI ingresado esta fuera de rango");
             }
             
 
