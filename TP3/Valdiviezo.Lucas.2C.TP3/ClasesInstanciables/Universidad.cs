@@ -21,31 +21,42 @@ namespace ClasesInstanciables
         private List<Alumno> alumnos;
         private List<Jornada> jornada;
         private List<Profesor> profesores;
-
+        /// <summary>
+        /// Constructor de clase el cual inicializa las listas de Alumno, Jornadas y Profesores.
+        /// </summary>
         public Universidad()
         {
             Alumnos = new List<Alumno>();
             Jornadas = new List<Jornada>();
             Profesores = new List<Profesor>();
         }
+        /// <summary>
+        /// Inicializa o Devuelve la lista de alumnos.
+        /// </summary>
         public List<Alumno> Alumnos
         {
             get { return alumnos; }
             set { alumnos = value; }
         }
-
+        /// <summary>
+        /// Inicializa o Devuelve la lista de profesores.
+        /// </summary>
         public List<Profesor> Profesores
         {
             get { return profesores; }
             set { profesores = value; }
         }
-
+        /// <summary>
+        /// Inicializa o Devuelve la lista de jornadas.
+        /// </summary>
         public List<Jornada> Jornadas
         {
             get { return jornada; }
             set { jornada = value; }
         }
-
+        /// <summary>
+        /// Guarda o Devuelve una jornada en una posicion especifica de la lista de jornadas.
+        /// </summary>
         public Jornada this[int i]
         {
             get
@@ -67,7 +78,11 @@ namespace ClasesInstanciables
                 }
             }
         }
-
+        /// <summary>
+        /// Metodo privado y de clase el cual recibe una universidad y devuelve un string con sus datos.
+        /// <param name="uni">Universidad de la cual se devolveran los datos. </param>
+        /// </summary>
+        /// <returns>String con los datos del alumno.</returns>
         private static string MostrarDatos(Universidad uni)
         {
             StringBuilder mostrar = new StringBuilder();
