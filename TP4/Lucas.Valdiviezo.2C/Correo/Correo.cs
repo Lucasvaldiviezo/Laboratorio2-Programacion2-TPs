@@ -24,13 +24,34 @@ namespace Entidades
             set { paquetes = value; }
         }
 
+        public void FinEntregas()
+        {
+            foreach (Thread t in mockPaquetes)
+            {
+                if (t.IsAlive)
+                {
+                    t.Abort();
+                }
+            }
+        }
+
+        public string MostrarDatos(IMostrar<List<Paquete>> elementos)
+        {
+            StringBuilder mostrar = new StringBuilder();
+            foreach (Paquete pqtAux in ((Correo)elementos).Paquetes)
+            {
+                mostrar.AppendFormat("{0} para {1} ({2}) \n", pqtAux.TrackingID, pqtAux.DireccionEntrega, pqtAux.Estado.ToString());
+            }
+            return mostrar.ToString();
+        }
+
         public static Correo operator +(Correo c, Paquete p)
         {
             foreach(Paquete auxPaquete in c.paquetes)
             {
                 if(auxPaquete == p)
                 {
-                    throw new TrackingIdRepetidoException("El paquete ya se encuentra en la lista");
+                    throw new TrackingIdRepetidoException(string.Format("El paquete con el tracking {0} ya se encuentra en la lista",p.TrackingID));
                 }else
                 {
                     c.paquetes.Add(p);
