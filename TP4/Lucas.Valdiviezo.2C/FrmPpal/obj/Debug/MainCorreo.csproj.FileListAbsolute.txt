@@ -1,0 +1,10 @@
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\bin\Debug\MainCorreo.exe.config
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\bin\Debug\MainCorreo.exe
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\bin\Debug\MainCorreo.pdb
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\FrmPpal.Form1.resources
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.exe
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.pdb

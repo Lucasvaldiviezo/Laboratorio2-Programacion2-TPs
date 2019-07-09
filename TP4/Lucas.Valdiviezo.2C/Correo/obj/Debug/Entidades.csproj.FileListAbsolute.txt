@@ -1,0 +1,6 @@
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\Correo\bin\Debug\Entidades.dll
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\Correo\bin\Debug\Entidades.pdb
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\Correo\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\Correo\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\Correo\obj\Debug\Entidades.dll
+C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\Correo\obj\Debug\Entidades.pdb
