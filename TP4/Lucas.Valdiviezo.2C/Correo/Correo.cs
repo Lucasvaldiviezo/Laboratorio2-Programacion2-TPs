@@ -18,9 +18,30 @@ namespace Entidades
             paquetes = new List<Paquete>();
         }
 
+        public List<Paquete> Paquetes
+        {
+            get { return paquetes; }
+            set { paquetes = value; }
+        }
+
         public static Correo operator +(Correo c, Paquete p)
         {
-            
+            foreach(Paquete auxPaquete in c.paquetes)
+            {
+                if(auxPaquete == p)
+                {
+                    throw new TrackingIdRepetidoException("El paquete ya se encuentra en la lista");
+                }else
+                {
+                    c.paquetes.Add(p);
+                }
+            }
+
+            Thread MockCicloDeVidaHilo = new Thread(p.MockCicloDeVida);
+            c.mockPaquetes.Add(MockCicloDeVidaHilo);
+            MockCicloDeVidaHilo.Start();
+
+            return c;
         }
     }
 }
