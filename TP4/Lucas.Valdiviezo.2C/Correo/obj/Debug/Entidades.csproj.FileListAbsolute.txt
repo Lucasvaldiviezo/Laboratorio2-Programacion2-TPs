@@ -4,3 +4,9 @@ C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\Correo\obj\Debug\Entidades.cspro
 C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\Correo\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\Correo\obj\Debug\Entidades.dll
 C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\Correo\obj\Debug\Entidades.pdb
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\Correo\bin\Debug\Entidades.dll
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\Correo\bin\Debug\Entidades.pdb
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\Correo\obj\Debug\Entidades.csprojAssemblyReference.cache
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\Correo\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\Correo\obj\Debug\Entidades.dll
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\Correo\obj\Debug\Entidades.pdb

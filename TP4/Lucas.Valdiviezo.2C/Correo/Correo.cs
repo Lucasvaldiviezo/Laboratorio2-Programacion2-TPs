@@ -52,12 +52,9 @@ namespace Entidades
                 if(auxPaquete == p)
                 {
                     throw new TrackingIdRepetidoException(string.Format("El paquete con el tracking {0} ya se encuentra en la lista",p.TrackingID));
-                }else
-                {
-                    c.paquetes.Add(p);
                 }
             }
-
+            c.paquetes.Add(p);
             Thread MockCicloDeVidaHilo = new Thread(p.MockCicloDeVida);
             c.mockPaquetes.Add(MockCicloDeVidaHilo);
             MockCicloDeVidaHilo.Start();
