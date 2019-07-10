@@ -69,7 +69,7 @@ namespace Entidades
         public string MostrarDatos(IMostrar<Paquete> elemento)
         {
             string mostrar;
-            mostrar = string.Format("{0} para {1}", ((Paquete)elemento).TrackingID, ((Paquete)elemento).DireccionEntrega);
+            mostrar = string.Format("{0} para {1}\n", ((Paquete)elemento).TrackingID, ((Paquete)elemento).DireccionEntrega);
             return mostrar;
         }
 
