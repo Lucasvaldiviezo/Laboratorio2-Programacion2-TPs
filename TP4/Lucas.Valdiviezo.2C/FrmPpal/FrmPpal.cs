@@ -16,6 +16,13 @@ namespace FrmPpal
         public FrmPpal()
         {
             InitializeComponent();
+            this.correo = new Correo();
+            richTextBoxMotrar.Enabled = false;
+        }
+
+        private void FrmPpal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.correo.FinEntregas();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -36,7 +43,7 @@ namespace FrmPpal
 
         private void informar_DAO(object paquete, Exception exception)
         {
-            MessageBox.Show(string.Format("Error al cargar los datos datos del paquete: {0} \n Descripcion: \n {1}", paquete.ToString(), exception.Message),
+            MessageBox.Show(string.Format("Error al cargar los datos datos del paquete: {0} \nDescripcion: \n{1}", paquete.ToString(), exception.Message),
                 "Error.", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
