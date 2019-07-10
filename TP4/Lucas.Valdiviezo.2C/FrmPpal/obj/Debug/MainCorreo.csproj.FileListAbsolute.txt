@@ -8,3 +8,16 @@ C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.csp
 C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
 C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.exe
 C:\Users\lucks\source\repos\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.pdb
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\bin\Debug\MainCorreo.exe.config
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\bin\Debug\MainCorreo.exe
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\bin\Debug\MainCorreo.pdb
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\FrmPpal.FrmPpal.resources
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.Properties.Resources.resources
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.exe
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.pdb
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\bin\Debug\Entidades.dll
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\bin\Debug\Entidades.pdb
+F:\UTN\2do Cuatrimestre\Laboratorio 2 y Programacion 2\Laboratorio2-Programacion2-TPs\TP4\Lucas.Valdiviezo.2C\FrmPpal\obj\Debug\MainCorreo.csproj.CopyComplete
