@@ -17,7 +17,7 @@ namespace FrmPpal
         {
             InitializeComponent();
             this.correo = new Correo();
-            richTextBoxMotrar.Enabled = false;
+            richTextBoxMostrar.Enabled = false;
         }
 
         private void FrmPpal_FormClosing(object sender, FormClosingEventArgs e)
@@ -30,12 +30,12 @@ namespace FrmPpal
             try
             {
                 Paquete nuevoPaquete = new Paquete(txtDireccion.Text, mtxtTrackingID.Text);
-                nuevoPaquete.InformarEstado += paq_InformarEstado;//asocia el evento(InformarEstado) al manejador de eventos(paq_InformarEstado).
-                nuevoPaquete.InformarDAO += informar_DAO;//asocia el evento(InformarSQlException) al manejador de eventos(informar_SQLException).
-                correo += nuevoPaquete;//Agrega el paquete nuevo a la lista de paquetes de la clase correo
-                ActualizarEstados(); //actualiza los estados con el metodo ActualizarEstados().
+                nuevoPaquete.InformarEstado += paq_InformarEstado;
+                nuevoPaquete.InformarDAO += informar_DAO;
+                correo += nuevoPaquete;
+                ActualizarEstados();
             }
-            catch (TrackingIdRepetidoException exception) // Captura la posible excepcion de que un paquete tenga el mismo TrackingId que otro paquete.
+            catch (TrackingIdRepetidoException exception)
             {
                 MessageBox.Show(exception.Message, "El paquete ya se encuentra en la lista", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
@@ -82,5 +82,36 @@ namespace FrmPpal
                 }
             }
         }
+
+        private void btnMostrarTodos_Click(object sender, EventArgs e)
+        {
+            this.MostrarInformacion<List<Paquete>>((IMostrar<List<Paquete>>)correo);
+        }
+
+        private void mostrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.MostrarInformacion<Paquete>((IMostrar<Paquete>)lstEstadoEntregado.SelectedItem);
+        }
+
+        private void MostrarInformacion<T>(IMostrar<T> elemento)
+        {
+            
+            string rutaArchivo = @"salida.txt";
+
+            if (elemento != null)
+            {
+                this.richTextBoxMostrar.Text = elemento.MostrarDatos(elemento);
+                try
+                {
+                    GuardaString.Guardar(this.richTextBoxMostrar.Text, rutaArchivo);
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show(e.Message, "Error.", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        
     }
 }
