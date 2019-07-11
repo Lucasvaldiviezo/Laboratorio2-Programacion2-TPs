@@ -11,7 +11,9 @@ namespace Entidades
         private static String connectionStr = "Data Source=DESKTOP-JHTFNKN\\SQLEXPRESS; Initial Catalog=correo-sp-2017; Integrated Security = True";
         private static SqlConnection conexion;
         private static SqlCommand comando;
-
+        /// <summary>
+        /// Constructor estatico que inicializa la conexion con la base de datos
+        /// </summary>
         static PaqueteDAO()
         {
             try
@@ -26,7 +28,10 @@ namespace Entidades
                 throw e;
             }
         }
-
+        /// <summary>
+        /// Metodo estatico que se encargara de guardar los datos recibidos del paquete en la base datos.
+        /// <param name="p">Paquete que contiene los datos a guardar. </param>
+        /// </summary>
         public static bool Insertar(Paquete p)
         {
             bool retorno = false;
