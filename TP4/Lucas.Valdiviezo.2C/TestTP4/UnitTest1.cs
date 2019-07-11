@@ -6,6 +6,9 @@ namespace TestTP4
     [TestClass]
     public class UnitTest1
     {
+        /// <summary>
+        /// Este test controla que cuando se instancia un nuevo correo la lista de paquetes de este no sea null.
+        /// </summary>
         [TestMethod]
         public void ListaPaquetesInstanciada()
         {
@@ -14,7 +17,9 @@ namespace TestTP4
             //Assert
             Assert.IsNotNull(c1.Paquetes);
         }
-
+        /// <summary>
+        /// Este test controla que cuando se agreguen 2 paquetes iguales al mismo correo se lance una excepcion avisando este error correctamente.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(TrackingIdRepetidoException))]
         public void PaquetesNoIguales()
@@ -29,7 +34,6 @@ namespace TestTP4
             c1 += p2;
             c1 += p3;
             //Assert
-            //[ExpectedException(typeof(TrackingIdRepetidoException))]
         }
     }
 }
